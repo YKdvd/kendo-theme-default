@@ -1,7 +1,11 @@
 $tabstrip-tabs-color: $accent !default;
 $tabstrip-background-color: inherit !default;
 $tabstrip-border-color: rgba(0, 0, 0, .08) !default;
+/* hover color actually used was different - $link-hover-text: desaturate(darken($accent, 5), 25) !default;
 $tabstrip-hover-color: blend-multiply($accent, darken($widget-bg, 8%)) !default;
+$tabstrip-hover-color: blend-multiply($tabstrip-tabs-color, darken($widget-bg, 8%)) !default;
+*/
+$tabstrip-hover-color: desaturate(darken($accent, 5), 25) !default;
 $tabstrip-active-color: $base-text !default;
 $tabstrip-active-background-color: desaturate($widget-bg, 1%) !default;
 $tabstrip-disabled-color: darken($widget-bg, 27%) !default;
